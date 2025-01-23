@@ -11,7 +11,8 @@
         "watch": "gulp watch",
         "clean": "node scripts/clean.js",
         "start": "npm run build && node scripts/start.js",
-        "start:debug": "npm run build && node scripts/start-debug.js"
+        "start:debug": "npm run build && node scripts/start-debug.js",
+        "deploy": "gh-pages -d dist"
     },
     "description": "Creative is a stylish one page HTML theme built with Bootstrap.",
     "keywords": [
